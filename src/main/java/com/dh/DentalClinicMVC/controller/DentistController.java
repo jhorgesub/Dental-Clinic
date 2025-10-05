@@ -33,9 +33,9 @@ public class DentistController {
 
     @PostMapping
     public ResponseEntity<Dentist> save(@RequestBody Dentist dentist) {
-
         return ResponseEntity.ok(dentistService.save(dentist));
     }
+
     @PutMapping
     public ResponseEntity<String> update(@RequestBody Dentist dentist) {
         ResponseEntity<String> response;

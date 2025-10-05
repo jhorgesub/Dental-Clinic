@@ -1,2 +1,6 @@
 # Dental-Clinic
-Proyecto en Java + Springboot
+Proyecto CRUD en Java + Springboot
+
+- Hibernate - JPA
+- Spring Security
+
